@@ -1,16 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+.menuBar {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 200px;
+}
+
 .drawBoard {
     max-width: 1000px;
     max-height: 1000px;
+    margin: 15px;
     display: flex;
     flex: 1 1 50px;
     flex-wrap: wrap;
+    border: 1px solid;
 }
 
 .gridSquares {
-    min-width: 10px;
-    min-height: 10px;
+    height: 20px;
+    width: 20px;
     margin: 0px;
     padding: 0px;
+}
+
+.colorButton {
+    height: 20px;
+    width: 20px;
+    border: none;
 }
 
 .slidecontainer {
