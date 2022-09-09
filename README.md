@@ -20,5 +20,5 @@ I added more functionality and a basic user interface - the program is now cente
 <li>Add a full color wheel for picking colors.</li>
 <li>Add eraser functionality (is currently the color "white").</li>
 <li>Add a pixel border toggle button</li>
-<li>Add background and more aesthetically pleasing UI<li>
+<li>Add background and more aesthetically pleasing UI</li>
 </ul>
