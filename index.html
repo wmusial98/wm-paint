@@ -11,14 +11,22 @@
 </head>
 
 <body>
-    <h1>WM PAINT</h1>
-    <div class="content">
-        <div class="menuBar">
-            <div class="slidecontainer">
-                <input type="range" min="4" max="100" value="50" class="slider" id="myRange">
+    <div class="fullBody">
+        <div class="content">
+            <div class="menuBar">
+                <div class="slidecontainer">
+                    <h4>canvas size slider</h4>
+                    <input type="range" min="4" max="100" value="50" class="slider" id="sizeRange">
+                </div>
             </div>
+            <div class="drawBoard"></div>
         </div>
-        <div class="drawBoard"></div>
+        <div class="footer">
+            <h1>WM PAINT</h1>
+            <p>Welcome to Wiktoria Musial's in-browser paint tool. Functionality is simple: pick a color, and hover over
+                the canvas. Click to "place" your pen on the canvas and begin draging to create some drawings. Click
+                again to "remove" your pen from the paper to access the menu.</p>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
