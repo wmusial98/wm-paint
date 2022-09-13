@@ -22,3 +22,19 @@ I added more functionality and a basic user interface - the program is now cente
 <li>Add a pixel border toggle button</li>
 <li>Add background and more aesthetically pleasing UI</li>
 </ul>
+
+
+## UI Update + Button Functionality
+I added a few more buttons to play around with: grayscale, random color, and erasers. Currently, the Eraser has the same functionality as selecting the white pen because the website background color is white - in the future, I will add a paper-textured background to draw over. 
+
+The way pixels are added to the canvas also changed: Instead of a mouseover event, the user now toggles between the pen touching the canvas, allowing the user to move their mouse cursor off the canvas without adding extra pixels or erasing anything.
+
+For now, this project is done, and I anticipate returning to this project after finishing the JavaScript TOP course.
+#### Future Changes to Implement
+<ul>
+<li>Add a full color wheel for picking colors. This is currently beyond the scope of my learning and I will have to open a new branch</li>
+<li>Add a pixel border toggle button. Currently the border pushes the elements out of the canvas square</li>
+<li>Add background</li>
+<li>Change grayscale functionality --> additive opacity rather than opaque</li>
+<li>Add grayscale slider</li>
+</ul>
